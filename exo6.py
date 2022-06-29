@@ -79,7 +79,7 @@ for i in my_list:
 
 print(my_list_int)
 
-#3.15
+#6.15
 
 my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 
@@ -91,7 +91,7 @@ for i in range (len(my_list)):
 
 print(my_list)
 
-#3.16
+#6.16
 
 my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 taille = len(my_list)
@@ -104,7 +104,7 @@ for i in range (taille):
 
 print(my_list)
 
-#3.17
+#6.17
 
 size = 5
 matrix = []

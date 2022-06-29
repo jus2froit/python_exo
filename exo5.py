@@ -27,7 +27,7 @@ print(my_text[12:21])
 print(my_text.split(" ")[5])
 
 #5.5
-ligne=0
+ligne = 0
 for i in range (len(my_text)):
     if my_text[i] == ".":
         ligne += 1

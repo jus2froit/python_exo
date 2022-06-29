@@ -1,7 +1,5 @@
 #3.1
 
-from audioop import avg
-
 
 birthyear = 1988
 year = 2022
@@ -10,6 +8,11 @@ age = year - birthyear
 print(age)
 
 #3.2
+# Bob veut distribuer tous ses bonbons et chocolats à ses amis.
+# Il a 15 bonbons, 17 chocolats et 3 amis.
+# Combien de bonbons lui restera-t-il ?
+# Calculez le reste de bonbons et de chocolats puis stockez les résultats dans les variables `candies_rest` et `chocolates_rest`.
+# Affichez ces résultats.
 
 candies = 15
 chocolates = 17
@@ -21,22 +24,29 @@ print("bonbons restant:",candies_rest)
 print("chocolats restant:",chocolates_rest)
 
 #3.3
-candies_per_person = int((candies - candies_rest) / 3)
-chocolates_per_person = int((chocolates - chocolates_rest) / 3)
+# Suite de l'exercice précédent.
+# Calculez combien de bonbons et chocolats Bob va distribuer par personne et stockez les résultats dans les variables `candies_per_person` et `chocolates_per_person`.
+# Affichez ces résultats.
+#
+# Indice : si vous séchez, reprenez le temps d'examiner la liste des opérateurs arithémtiques.
+# Il y en a un qui va tout de suite vous donner la réponse.
+candies_per_person = (candies - candies_rest) // 3
+chocolates_per_person = (chocolates - chocolates_rest) // 3
 print("chaque personne aura", chocolates_per_person, "chocolats")
 print("chaque personne aura", candies_per_person, "bonbons")
 
 #3.4
-nombre = [1, 1, 2, 3, 5, 8 ,13]
-somme = 0
-for i in nombre:
-    somme += i
+# nombre = [1, 1, 2, 3, 5, 8 ,13]
+# somme = 0
+# for i in nombre:
+#     somme += i
 
-moyenne = somme / len(nombre)
-print("moyenne =", moyenne)
+# moyenne = somme / len(nombre)
+# print("moyenne =", moyenne)
 
+print("moyenne =", ((1 + 1 + 2 + 3 + 5 + 8 + 13)/ 7))
 
-#6.5
+#3.5
 
 day1 = 26.82
 day2 = 42.00
